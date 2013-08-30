@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A08BDC417CFBF5400BF0980 /* Engagefront.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A08BDB617CFBF5400BF0980 /* Engagefront.plist */; };
+		1A08BDC517CFBF5400BF0980 /* EFClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A08BDB917CFBF5400BF0980 /* EFClose.png */; };
+		1A08BDC617CFBF5400BF0980 /* EFClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A08BDBA17CFBF5400BF0980 /* EFClose@2x.png */; };
+		1A08BDC717CFBF5400BF0980 /* libEngageFront_iOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A08BDBB17CFBF5400BF0980 /* libEngageFront_iOS_SDK.a */; };
+		1A08BDC817CFBF5400BF0980 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A08BDC117CFBF5400BF0980 /* README.md */; };
+		1A8498EF17CFDE80005AD5FD /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8498EB17CFDE80005AD5FD /* banner@2x.png */; };
+		1A8498F017CFDE80005AD5FD /* inline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8498EC17CFDE80005AD5FD /* inline@2x.png */; };
+		1A8498F117CFDE80005AD5FD /* roadBlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8498ED17CFDE80005AD5FD /* roadBlock@2x.png */; };
+		1A8498F217CFDE80005AD5FD /* timeOut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8498EE17CFDE80005AD5FD /* timeOut@2x.png */; };
+		1AABC73917CE9BCB00303ED5 /* InlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AABC73817CE9BCB00303ED5 /* InlineViewController.m */; };
+		1AABC73C17CE9BEC00303ED5 /* RoadBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AABC73B17CE9BEC00303ED5 /* RoadBlockViewController.m */; };
+		1AABC73F17CE9C0300303ED5 /* TimeOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AABC73E17CE9C0300303ED5 /* TimeOutViewController.m */; };
 		1AEEC92E17C67AA600A1E709 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC92D17C67AA600A1E709 /* UIKit.framework */; };
 		1AEEC93017C67AA600A1E709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC92F17C67AA600A1E709 /* Foundation.framework */; };
 		1AEEC93217C67AA600A1E709 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC93117C67AA600A1E709 /* CoreGraphics.framework */; };
@@ -16,12 +28,44 @@
 		1AEEC94017C67AA600A1E709 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEC93F17C67AA600A1E709 /* Default.png */; };
 		1AEEC94217C67AA600A1E709 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEC94117C67AA600A1E709 /* Default@2x.png */; };
 		1AEEC94417C67AA600A1E709 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEC94317C67AA600A1E709 /* Default-568h@2x.png */; };
-		1AEEC94717C67AA600A1E709 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEC94617C67AA600A1E709 /* ViewController.m */; };
-		1AEEC94A17C67AA600A1E709 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEC94817C67AA600A1E709 /* ViewController_iPhone.xib */; };
-		1AEEC94D17C67AA600A1E709 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEC94B17C67AA600A1E709 /* ViewController_iPad.xib */; };
+		1AEEC94717C67AA600A1E709 /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEC94617C67AA600A1E709 /* BannerViewController.m */; };
+		1AEEC99817C695BB00A1E709 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC99717C695BA00A1E709 /* AdSupport.framework */; };
+		1AEEC99A17C695C600A1E709 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC99917C695C600A1E709 /* CoreLocation.framework */; };
+		1AEEC99C17C695CC00A1E709 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC99B17C695CC00A1E709 /* CoreTelephony.framework */; };
+		1AEEC99E17C695D500A1E709 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC99D17C695D500A1E709 /* QuartzCore.framework */; };
+		1AEEC9A017C695DB00A1E709 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEC99F17C695DB00A1E709 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A08BDAC17CFBF5400BF0980 /* EFAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFAdController.h; sourceTree = "<group>"; };
+		1A08BDAD17CFBF5400BF0980 /* EFAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFAdView.h; sourceTree = "<group>"; };
+		1A08BDAE17CFBF5400BF0980 /* EFBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBannerController.h; sourceTree = "<group>"; };
+		1A08BDAF17CFBF5400BF0980 /* EFInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFInclude.h; sourceTree = "<group>"; };
+		1A08BDB017CFBF5400BF0980 /* EFInlineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFInlineController.h; sourceTree = "<group>"; };
+		1A08BDB117CFBF5400BF0980 /* EFInternetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFInternetConnection.h; sourceTree = "<group>"; };
+		1A08BDB217CFBF5400BF0980 /* EFRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFRequestHandler.h; sourceTree = "<group>"; };
+		1A08BDB317CFBF5400BF0980 /* EFRoadBlockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFRoadBlockController.h; sourceTree = "<group>"; };
+		1A08BDB417CFBF5400BF0980 /* EFTimeOutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTimeOutController.h; sourceTree = "<group>"; };
+		1A08BDB517CFBF5400BF0980 /* EFToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFToolbarView.h; sourceTree = "<group>"; };
+		1A08BDB617CFBF5400BF0980 /* Engagefront.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Engagefront.plist; sourceTree = "<group>"; };
+		1A08BDB717CFBF5400BF0980 /* EngageFront_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngageFront_iOS.h; sourceTree = "<group>"; };
+		1A08BDB917CFBF5400BF0980 /* EFClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EFClose.png; sourceTree = "<group>"; };
+		1A08BDBA17CFBF5400BF0980 /* EFClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EFClose@2x.png"; sourceTree = "<group>"; };
+		1A08BDBB17CFBF5400BF0980 /* libEngageFront_iOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEngageFront_iOS_SDK.a; sourceTree = "<group>"; };
+		1A08BDBE17CFBF5400BF0980 /* MacAddressHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacAddressHelper.h; sourceTree = "<group>"; };
+		1A08BDC017CFBF5400BF0980 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		1A08BDC117CFBF5400BF0980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1A08BDC317CFBF5400BF0980 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1A8498EB17CFDE80005AD5FD /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		1A8498EC17CFDE80005AD5FD /* inline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inline@2x.png"; sourceTree = "<group>"; };
+		1A8498ED17CFDE80005AD5FD /* roadBlock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roadBlock@2x.png"; sourceTree = "<group>"; };
+		1A8498EE17CFDE80005AD5FD /* timeOut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeOut@2x.png"; sourceTree = "<group>"; };
+		1AABC73717CE9BCB00303ED5 /* InlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InlineViewController.h; sourceTree = "<group>"; };
+		1AABC73817CE9BCB00303ED5 /* InlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InlineViewController.m; sourceTree = "<group>"; };
+		1AABC73A17CE9BEC00303ED5 /* RoadBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoadBlockViewController.h; sourceTree = "<group>"; };
+		1AABC73B17CE9BEC00303ED5 /* RoadBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoadBlockViewController.m; sourceTree = "<group>"; };
+		1AABC73D17CE9C0300303ED5 /* TimeOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeOutViewController.h; sourceTree = "<group>"; };
+		1AABC73E17CE9C0300303ED5 /* TimeOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeOutViewController.m; sourceTree = "<group>"; };
 		1AEEC92A17C67AA600A1E709 /* EFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEEC92D17C67AA600A1E709 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AEEC92F17C67AA600A1E709 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,10 +79,13 @@
 		1AEEC93F17C67AA600A1E709 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1AEEC94117C67AA600A1E709 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1AEEC94317C67AA600A1E709 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1AEEC94517C67AA600A1E709 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1AEEC94617C67AA600A1E709 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1AEEC94917C67AA600A1E709 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		1AEEC94C17C67AA600A1E709 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		1AEEC94517C67AA600A1E709 /* BannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		1AEEC94617C67AA600A1E709 /* BannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		1AEEC99717C695BA00A1E709 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1AEEC99917C695C600A1E709 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1AEEC99B17C695CC00A1E709 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1AEEC99D17C695D500A1E709 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1AEEC99F17C695DB00A1E709 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,18 +93,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEEC9A017C695DB00A1E709 /* SystemConfiguration.framework in Frameworks */,
+				1AEEC99E17C695D500A1E709 /* QuartzCore.framework in Frameworks */,
+				1AEEC99C17C695CC00A1E709 /* CoreTelephony.framework in Frameworks */,
+				1AEEC99A17C695C600A1E709 /* CoreLocation.framework in Frameworks */,
+				1AEEC93217C67AA600A1E709 /* CoreGraphics.framework in Frameworks */,
+				1AEEC99817C695BB00A1E709 /* AdSupport.framework in Frameworks */,
 				1AEEC92E17C67AA600A1E709 /* UIKit.framework in Frameworks */,
 				1AEEC93017C67AA600A1E709 /* Foundation.framework in Frameworks */,
-				1AEEC93217C67AA600A1E709 /* CoreGraphics.framework in Frameworks */,
+				1A08BDC717CFBF5400BF0980 /* libEngageFront_iOS_SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A08BDAB17CFBF5400BF0980 /* EFLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1A08BDAC17CFBF5400BF0980 /* EFAdController.h */,
+				1A08BDAD17CFBF5400BF0980 /* EFAdView.h */,
+				1A08BDAE17CFBF5400BF0980 /* EFBannerController.h */,
+				1A08BDAF17CFBF5400BF0980 /* EFInclude.h */,
+				1A08BDB017CFBF5400BF0980 /* EFInlineController.h */,
+				1A08BDB117CFBF5400BF0980 /* EFInternetConnection.h */,
+				1A08BDB217CFBF5400BF0980 /* EFRequestHandler.h */,
+				1A08BDB317CFBF5400BF0980 /* EFRoadBlockController.h */,
+				1A08BDB417CFBF5400BF0980 /* EFTimeOutController.h */,
+				1A08BDB517CFBF5400BF0980 /* EFToolbarView.h */,
+				1A08BDB617CFBF5400BF0980 /* Engagefront.plist */,
+				1A08BDB717CFBF5400BF0980 /* EngageFront_iOS.h */,
+				1A08BDB817CFBF5400BF0980 /* images */,
+				1A08BDBB17CFBF5400BF0980 /* libEngageFront_iOS_SDK.a */,
+				1A08BDBC17CFBF5400BF0980 /* ThirdParty */,
+			);
+			path = EFLibrary;
+			sourceTree = "<group>";
+		};
+		1A08BDB817CFBF5400BF0980 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1A08BDB917CFBF5400BF0980 /* EFClose.png */,
+				1A08BDBA17CFBF5400BF0980 /* EFClose@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1A08BDBC17CFBF5400BF0980 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				1A08BDBD17CFBF5400BF0980 /* MacAddressHelper */,
+				1A08BDBF17CFBF5400BF0980 /* OpenUDID */,
+				1A08BDC217CFBF5400BF0980 /* Reachability */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1A08BDBD17CFBF5400BF0980 /* MacAddressHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1A08BDBE17CFBF5400BF0980 /* MacAddressHelper.h */,
+			);
+			path = MacAddressHelper;
+			sourceTree = "<group>";
+		};
+		1A08BDBF17CFBF5400BF0980 /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				1A08BDC017CFBF5400BF0980 /* OpenUDID.h */,
+				1A08BDC117CFBF5400BF0980 /* README.md */,
+			);
+			path = OpenUDID;
+			sourceTree = "<group>";
+		};
+		1A08BDC217CFBF5400BF0980 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1A08BDC317CFBF5400BF0980 /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		1A8498EA17CFDE80005AD5FD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1A8498EB17CFDE80005AD5FD /* banner@2x.png */,
+				1A8498EC17CFDE80005AD5FD /* inline@2x.png */,
+				1A8498ED17CFDE80005AD5FD /* roadBlock@2x.png */,
+				1A8498EE17CFDE80005AD5FD /* timeOut@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		1AEEC92117C67AA600A1E709 = {
 			isa = PBXGroup;
 			children = (
+				1A08BDAB17CFBF5400BF0980 /* EFLibrary */,
 				1AEEC93317C67AA600A1E709 /* EFDemo */,
 				1AEEC92C17C67AA600A1E709 /* Frameworks */,
 				1AEEC92B17C67AA600A1E709 /* Products */,
@@ -75,9 +206,14 @@
 		1AEEC92C17C67AA600A1E709 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1AEEC92D17C67AA600A1E709 /* UIKit.framework */,
-				1AEEC92F17C67AA600A1E709 /* Foundation.framework */,
+				1AEEC99717C695BA00A1E709 /* AdSupport.framework */,
 				1AEEC93117C67AA600A1E709 /* CoreGraphics.framework */,
+				1AEEC99917C695C600A1E709 /* CoreLocation.framework */,
+				1AEEC99B17C695CC00A1E709 /* CoreTelephony.framework */,
+				1AEEC92F17C67AA600A1E709 /* Foundation.framework */,
+				1AEEC99D17C695D500A1E709 /* QuartzCore.framework */,
+				1AEEC99F17C695DB00A1E709 /* SystemConfiguration.framework */,
+				1AEEC92D17C67AA600A1E709 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,10 +223,14 @@
 			children = (
 				1AEEC93C17C67AA600A1E709 /* AppDelegate.h */,
 				1AEEC93D17C67AA600A1E709 /* AppDelegate.m */,
-				1AEEC94517C67AA600A1E709 /* ViewController.h */,
-				1AEEC94617C67AA600A1E709 /* ViewController.m */,
-				1AEEC94817C67AA600A1E709 /* ViewController_iPhone.xib */,
-				1AEEC94B17C67AA600A1E709 /* ViewController_iPad.xib */,
+				1AEEC94517C67AA600A1E709 /* BannerViewController.h */,
+				1AEEC94617C67AA600A1E709 /* BannerViewController.m */,
+				1AABC73717CE9BCB00303ED5 /* InlineViewController.h */,
+				1AABC73817CE9BCB00303ED5 /* InlineViewController.m */,
+				1AABC73A17CE9BEC00303ED5 /* RoadBlockViewController.h */,
+				1AABC73B17CE9BEC00303ED5 /* RoadBlockViewController.m */,
+				1AABC73D17CE9C0300303ED5 /* TimeOutViewController.h */,
+				1AABC73E17CE9C0300303ED5 /* TimeOutViewController.m */,
 				1AEEC93417C67AA600A1E709 /* Supporting Files */,
 			);
 			path = EFDemo;
@@ -99,6 +239,7 @@
 		1AEEC93417C67AA600A1E709 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A8498EA17CFDE80005AD5FD /* images */,
 				1AEEC93517C67AA600A1E709 /* EFDemo-Info.plist */,
 				1AEEC93617C67AA600A1E709 /* InfoPlist.strings */,
 				1AEEC93917C67AA600A1E709 /* main.m */,
@@ -165,8 +306,14 @@
 				1AEEC94017C67AA600A1E709 /* Default.png in Resources */,
 				1AEEC94217C67AA600A1E709 /* Default@2x.png in Resources */,
 				1AEEC94417C67AA600A1E709 /* Default-568h@2x.png in Resources */,
-				1AEEC94A17C67AA600A1E709 /* ViewController_iPhone.xib in Resources */,
-				1AEEC94D17C67AA600A1E709 /* ViewController_iPad.xib in Resources */,
+				1A08BDC417CFBF5400BF0980 /* Engagefront.plist in Resources */,
+				1A08BDC517CFBF5400BF0980 /* EFClose.png in Resources */,
+				1A08BDC617CFBF5400BF0980 /* EFClose@2x.png in Resources */,
+				1A08BDC817CFBF5400BF0980 /* README.md in Resources */,
+				1A8498EF17CFDE80005AD5FD /* banner@2x.png in Resources */,
+				1A8498F017CFDE80005AD5FD /* inline@2x.png in Resources */,
+				1A8498F117CFDE80005AD5FD /* roadBlock@2x.png in Resources */,
+				1A8498F217CFDE80005AD5FD /* timeOut@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +326,10 @@
 			files = (
 				1AEEC93A17C67AA600A1E709 /* main.m in Sources */,
 				1AEEC93E17C67AA600A1E709 /* AppDelegate.m in Sources */,
-				1AEEC94717C67AA600A1E709 /* ViewController.m in Sources */,
+				1AEEC94717C67AA600A1E709 /* BannerViewController.m in Sources */,
+				1AABC73917CE9BCB00303ED5 /* InlineViewController.m in Sources */,
+				1AABC73C17CE9BEC00303ED5 /* RoadBlockViewController.m in Sources */,
+				1AABC73F17CE9C0300303ED5 /* TimeOutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +342,6 @@
 				1AEEC93717C67AA600A1E709 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1AEEC94817C67AA600A1E709 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AEEC94917C67AA600A1E709 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		1AEEC94B17C67AA600A1E709 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AEEC94C17C67AA600A1E709 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,10 +408,24 @@
 		1AEEC95117C67AA600A1E709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../..\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EFDemo/EFDemo-Prefix.pch";
 				INFOPLIST_FILE = "EFDemo/EFDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/EFLibrary\"",
+					"\"$(SRCROOT)/../../../EFLibrary\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,10 +433,23 @@
 		1AEEC95217C67AA600A1E709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../..\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EFDemo/EFDemo-Prefix.pch";
 				INFOPLIST_FILE = "EFDemo/EFDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/EFLibrary\"",
+					"\"$(SRCROOT)/../../../EFLibrary\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +473,7 @@
 				1AEEC95217C67AA600A1E709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

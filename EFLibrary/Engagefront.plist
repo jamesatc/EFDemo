@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EF_SDK_VALUES</key>
+	<dict>
+		<key>EF_SDK_VERSION</key>
+		<string>1.0</string>
+	</dict>
+	<key>EF_CONNECTION_VALUES</key>
+	<dict>
+		<key>EF_HOSTNAME</key>
+		<string>http://exchange.lb.engagecore.com:7070/ads.php</string>
+		<key>EF_APP_KEY</key>
+		<string>AddictiveTest</string>
+	</dict>
+	<key>EF_TEST_VALUES</key>
+	<dict>
+		<key>EF_TESTER_MODE</key>
+		<true/>
+		<key>EF_CREATIVE_ID</key>
+		<string>1649</string>
+		<key>EF_IP_ADDRESS</key>
+		<string></string>
+		<key>EF_TEST_MODE_TYPE</key>
+		<string>image</string>
+	</dict>
+	<key>EF_DEFAULT_VALUES</key>
+	<dict>
+		<key>EF_ROTATION_TIME</key>
+		<integer>5</integer>
+		<key>EF_DEFULT_ANIMATION</key>
+		<string>EFNoAnimation</string>
+		<key>EF_DEFULT_MIN_NETWORK_LEVEL</key>
+		<string>EF2G</string>
+		<key>EF_DEFULT_FADE</key>
+		<true/>
+		<key>EF_AD_PERCENTAGE</key>
+		<real>0.9</real>
+	</dict>
+</dict>
+</plist>
